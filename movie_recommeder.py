@@ -48,7 +48,8 @@ sorted_similar_movies = sorted(similar_movies, key=lambda x:x[1], reverse=True)[
 # print(sorted_similar_movies)
 
 # 11. Print titles of first 5 movies
-print('\nTop 5 recommended movies are: \n')
+print('\nYou liked: ' + movie_user_likes)
+print('\nTop 5 recommended movies for you: \n')
 i = 0
 for element in sorted_similar_movies:
     print(get_title_from_index(element[0]))
