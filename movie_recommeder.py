@@ -54,5 +54,5 @@ i = 0
 for element in sorted_similar_movies:
     print(get_title_from_index(element[0]))
     i = i + 1
-    if i > 5:
+    if i > 4:
         break
